@@ -730,7 +730,7 @@
       h2 {
         color: var(--color-white);
         font-family: var(--primary-font-family);
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 600;
         text-align: left;
         width: 100%;
@@ -891,11 +891,18 @@
   right: 20px;
   z-index: 1000;
 
-  img {
-    width: 100px;
-    height: 100px;
+  button {
+    background: none;
+    border: none;
     cursor: pointer;
+
+    img {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+    }
   }
+
 }
 
 /* Responsive design */
@@ -1165,7 +1172,7 @@
   }
 
   .footer {
-    justify-content: space-between;
+    justify-content: flex-start;
 
     .logo {
       img {
