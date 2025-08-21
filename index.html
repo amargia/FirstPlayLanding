@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Play - Reñaca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+  </head>
+
+  <body>
+    <div>
+      <header class="navBar">
+        <div class="logoContainer">
+          <img
+            src="./images/logo.png"
+            alt="Logo de First Play"
+            class="logo"
+            width="80"
+          />
+          <div class="navText">
+            <h1>FIRST PLAY</h1>
+            <p>REÑACA</p>
+          </div>
+        </div>
+        <div class="navLinks">
+          <nav class="desktopNav">
+            <ul>
+              <li><a href="#clases">Clases</a></li>
+              <li><a href="#ubicacion">Ubicación</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#precios">Precios</a></li>
+            </ul>
+          </nav>
+          <div class="mobileNav">
+            <button class="menuButton" onclick="toggleMobileMenu()">
+              <img src="./icons/burgerMenu.svg" alt="Menú" class="icon" />
+            </button>
+            <div class="mobileMenu">
+              <ul>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#precios">Precios</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="carousel-slides">
+              <div class="slide slide1">
+                <div class="slide-content">
+                  <div class="stripe">
+                    <h2>ENTRENA</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="slide slide2">
+                <div class="slide-content">
+                  <div class="stripe">
+                    <h2>MEJORA</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="slide slide3">
+                <div class="slide-content">
+                  <div class="stripe">
+                    <h2>JUEGA</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="features" id="clases">
+          <div class="pictures">
+            <div class="picture first">
+              <div class="imageContainer">
+                <img
+                  src="./icons/patch.svg"
+                  alt="foto 1"
+                  class="icon patchOne"
+                />
+                <img
+                  src="./images/fotoSection1.jpg"
+                  alt="foto 1"
+                  class="image"
+                />
+              </div>
+            </div>
+            <div class="picture second">
+              <div class="imageContainer">
+                <img
+                  src="./images/fotoSection2.jpg"
+                  alt="foto 2"
+                  class="image"
+                />
+                <img
+                  src="./icons/patch.svg"
+                  alt="foto 1"
+                  class="icon patchTwo"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <div>
+              <h4>Clases de iniciación deportiva</h4>
+              <h2>Psicomotricidad</h2>
+            </div>
+            <p>
+              Nuestras clases de psicomotricidad están diseñadas especialmente
+              para <span class="bold">niños y niñas de 2 a 5 años</span>, respetando su
+              etapa de desarrollo y sus necesidades naturales de <span class="italic">moverse,
+              explorar y jugar</span>.
+            </p>
+          </div>
+        </section>
+
+        <section class="features blackBackground">
+          <div class="grassContainer">
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+          </div>
+          <div class="imageTextContainer mobileReverse">
+            <div class="text">
+              <h2>Beneficios</h2>
+              <p>
+                Las clases de psicomotricidad ayudan a los niños a
+                <span class="bold">desarrollar su cuerpo, mente y emociones</span> a
+                través del movimiento. Mejoran su
+                <span class="bold">coordinación, socialización, autoestima</span> y
+                canalizan su energía de forma positiva, mientras <span class="italic">juegan y se
+                divierten</span>.
+              </p>
+            </div>
+            <div class="imageContainer">
+              <img src="./images/fotoGrupal.jpg" alt="foto de grupo" />
+            </div>
+          </div>
+        </section>
+        <section class="features">
+          <div class="imageTextContainer">
+            <div class="kidImageContainer">
+              <img src="./icons/patch.svg" alt="foto 1" class="icon patchOne" />
+              <img src="./images/niñoPelota.jpg" alt="niño" />
+              <img src="./icons/patch.svg" alt="foto 1" class="icon patchTwo" />
+            </div>
+            <div class="text">
+              <div>
+                <h4>Categoría Sub 6</h4>
+                <h2>Fútbol Formativo</h2>
+              </div>
+              <p>
+                Para <span class="bold">niños y niñas de 4 a 6 años</span> que ya
+                muestran interés por el fútbol. En esta categoría trabajamos
+                técnica básica, coordinación, trabajo en equipo y valores
+                deportivos, todo en un
+                <span class="italic">ambiente lúdico, formativo y lleno de energía</span
+                >.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="features halfBlackBackground" id="ubicacion">
+          <div class="grassContainer">
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+          </div>
+          <div class="cardsContainer">
+            <div class="card">
+              <div class="cardHeader">
+                <img
+                  src="./icons/time-line.svg"
+                  alt="icono de reloj"
+                  class="icon clock"
+                />
+                <h3>Horario</h3>
+              </div>
+              <hr>
+              <div>
+                <p><span class="bold">Lunes</span> 16:30 (invierno)</p>
+                <p><span class="bold">Domingo</span> 10:00 am</p> 
+              </div>
+            </div>
+            <div class="card">
+              <div class="cardHeader">
+                <img
+                  src="./icons/map-pin-line.svg"
+                  alt="icono de ubicación"
+                  class="icon location"
+                />
+                <h3>Ubicación</h3>
+              </div>
+              <hr>
+              <div class="cardText">
+                <p>Estadio Israelita, Bernardo o'higgins 1285</p>
+                <p class="italicSmall">Ingreso directamente por la cancha</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features halfWhiteBackground" id="nosotros">
+          <div class="leftSide">
+            <div class="left first">
+              <div class="circle yellow">
+                <img
+                  src="./icons/auto-crecimiento.png"
+                  alt="auto crecimiento"
+                  class="circleImage"
+                />
+              </div>
+              <p class="white">
+              Desarrollo integral
+              </p>
+            </div>
+            <div class="left second">
+              <div class="circle green">
+                <img
+                  src="./icons/incrementar.png"
+                  alt="incrementar"
+                  class="circleImage"
+                />
+              </div>
+              <p class="white">
+                Enfoque respetuoso y evolutivo
+              </p>
+            </div>
+            <div class="left third">
+              <div class="circle red">
+                <img
+                  src="./icons/jugador-de-futbol.png"
+                  alt="jugador de futbol"
+                  class="circleImage"
+                />
+              </div>
+              <p>
+                Juego como motor de aprendizaje
+              </p>
+            </div>
+            <div class="left fourth">
+              <div class="circle yellow">
+                <img
+                  src="./icons/rompecabezas.png"
+                  alt="rompecabezas"
+                  class="circleImage"
+                />
+              </div>
+              <p>
+                Diversión con propósito
+              </p>
+            </div>
+            <div class="left fifth">
+              <div class="circle green">
+                <img
+                  src="./icons/humano.png"
+                  alt="vínculo humano"
+                  class="circleImage"
+                />
+              </div>
+              <p>
+                Cercanía y vínculo humano
+              </p>
+            </div>
+          </div>
+          <div class="rightSide">
+            <div class="rightText">
+              <h2>Nosotros</h2>
+              <p>
+                En <span class="bold">First Play</span>, creamos espacios donde los niños y niñas de temprana edad 
+                pueden descubrir el deporte a través del juego, desarrollando sus habilidades motrices, 
+                sociales y emocionales en un <span class="italic">ambiente seguro, entretenido y formativo</span>.
+                Soñamos con una comunidad de niños que crecen felices, activos y conectados con su cuerpo, 
+                su entorno y los valores del juego.
+              </p>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="features halfBlackBackground pricesSection" id="precios">
+          <div class="grassContainer">
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+            <img src="./images/grass.svg" alt="foto 3" class="grass" />
+          </div>
+          <div class="pricesContainer">
+            <div class="title">
+              <h2>Precios</h2>
+            </div>
+            <div class="cardsContainer">
+              <div class="card">
+                <div class="cardHeader">
+                  <div class="header">
+                    <h3 class="thin primary">Plan</h3>
+                    <h3 class="primary">1 vez por semana</h3>
+                  </div>
+                  <h4 class="thinSmall">4 clases al mes</h4>
+                </div>
+                <hr>
+                <div class="cardText price">
+                  <p class="bigBold">$30.000</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="cardHeader">
+                  <div class="header">
+                    <h3 class="thin primary">Plan</h3>
+                    <h3 class="primary">2 veces por semana</h3>
+                  </div>
+                  <h4 class="thinSmall">8 clases al mes</h4>
+                </div>
+                <hr>
+                <div class="cardText price">
+                  <p class="bigBold">$45.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features buttonContainer">
+          <div class="container">
+            <button class="button" onclick="window.open('https://wa.me/56951440122')">
+              <p>Agendar clase de prueba</p>
+              <p>GRATIS</p>
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="logo">
+          <img
+            src="./images/logo.png"
+            alt="Logo de First Play"
+            class="logo"
+          />
+        </div>
+        <div class="contactUs">
+          <h3>Contáctanos</h3>
+          <div class="icons">
+            <button onclick="window.open('https://www.instagram.com/firstplayfutbol/')">
+              <img src="./icons/ig.svg" alt="Instagram" class="icon" />
+            </button>
+            <button onclick="window.open('https://wa.me/56951440122')">
+              <img src="./icons/wpp.svg" alt="WhatsApp" class="icon" />
+            </button>
+          </div>
+        </div>
+      </footer>
+      <div class="whatsappBubble">
+        <img src="./images/wppBubble.png" alt="WhatsApp" class="whatsappIcon" />
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
