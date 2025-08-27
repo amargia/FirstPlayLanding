@@ -830,6 +830,7 @@
   background-color: var(--color-white);
   padding: 1.5rem 3rem;
   border-bottom: 10px solid var(--color-green);
+  gap: 1rem;
 
   .logo {
     display: flex;
